@@ -1,0 +1,6 @@
+[user]
+    name = dev-cyw
+    email = 98186075+dev-cyw@users.noreply.github.com
+
+[init]
+    defaultBranch = main
