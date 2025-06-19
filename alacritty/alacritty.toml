@@ -1,0 +1,58 @@
+[terminal.shell]
+program = "/bin/zsh"
+
+[window]
+title = "Terminal"
+dimensions = { lines = 30, columns = 110 }
+position = { x = 480, y = 220 }
+opacity = 0.96
+decorations = "full"
+
+[scrolling]
+history = 1000
+multiplier = 2
+
+[font]
+normal.family = "JetBrains Mono"
+bold.family = "JetBrains Mono"
+italic.family = "JetBrains Mono"
+bold_italic.style = "JetBrains Mono"
+
+size = 13.0
+
+# Colors (Ayu Dark)
+
+# Default colors
+[colors.primary]
+background = '#0A0E14'
+foreground = '#B3B1AD'
+
+# Normal colors
+[colors.normal]
+black = '#01060E'
+red = '#EA6C73'
+green = '#91B362'
+yellow = '#F9AF4F'
+blue = '#53BDFA'
+magenta = '#FAE994'
+cyan = '#90E1C6'
+white = '#C7C7C7'
+
+# Bright colors
+[colors.bright]
+black = '#686868'
+red = '#F07178'
+green = '#C2D94C'
+yellow = '#FFB454'
+blue = '#59C2FF'
+magenta = '#FFEE99'
+cyan = '#95E6CB'
+white = '#FFFFFF'
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
+
+[mouse]
+hide_when_typing = true
+
+[terminal]
